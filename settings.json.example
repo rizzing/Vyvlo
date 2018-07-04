@@ -1,0 +1,50 @@
+{
+  "proxy": "example.com",
+  "svg_font_name": "svg-font",
+  "path": {
+    "ass_root": "./public/assets/",
+    "frontend": {
+      "css": {
+        "source": "./resources/assets/frontend/sass/",
+        "dest": "./public/assets/frontend/css/"
+      },
+      "js": {
+        "source": "./resources/assets/frontend/js/",
+        "dest": "./public/assets/frontend/js/"
+      },
+      "img": {
+        "source": "./resources/assets/frontend/img/",
+        "dest": "./public/assets/frontend/img/"
+      },
+      "fonts": {
+        "source": "./resources/assets/frontend/fonts/",
+        "dest": "./public/assets/frontend/fonts/"
+      },
+      "svg_font": {
+        "icons_source": "./resources/assets/frontend/icons/*.svg",
+        "dest": "./public/assets/frontend/fonts/"
+      }
+    },
+    "backend": {
+      "css": {
+        "source": "./resources/assets/backend/sass/",
+        "dest": "./public/assets/backend/css/"
+      },
+      "js": {
+        "source": "./resources/assets/backend/js/",
+        "dest": "./public/assets/backend/js/"
+      },
+      "img": {
+        "source": "./resources/assets/backend/img/",
+        "dest": "./public/assets/backend/img/"
+      },
+      "font": {
+        "source": "./resources/assets/backend/fonts/",
+        "dest": "./public/assets/backend/fonts/"
+      }
+    },
+    "common": {
+      "views": "./resources/views/"
+    }
+  }
+}
