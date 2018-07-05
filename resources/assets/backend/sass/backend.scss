@@ -1,0 +1,42 @@
+@import "common/theme-variables.scss";
+@import "common/theme-mixins";
+
+@import "vendor/bootstrap-overrides/bootstrap";
+@import "vendor/bootstrap-overrides/tables";
+@import "vendor/bootstrap-overrides/forms";
+@import "vendor/bootstrap-overrides/nav";
+@import "vendor/bootstrap-overrides/buttons";
+@import "vendor/bootstrap-overrides/breadcrumb";
+@import "vendor/bootstrap-overrides/type";
+@import "vendor/bootstrap-overrides/modal";
+@import "vendor/bootstrap-overrides/popover";
+@import "vendor/bootstrap-overrides/alerts";
+@import "vendor/bootstrap-overrides/badges";
+
+@import "./libs/select2/select2";
+@import "./libs/bootstrap-daterangepicker/daterangepicker";
+@import "./libs/dropzone/dropzone";
+@import "./libs/datatables.net-bs/datatables.bootstrap";
+@import "./libs/fullcalendar/fullcalendar";
+@import "./libs/perfect-scrollbar/perfect-scrollbar";
+@import "./libs/sweetalert/sweetalert2";
+
+@import "app/plugin-overrides";
+
+@import "app/animations";
+@import "app/user_profile";
+@import "app/layout";
+@import "app/menu";
+@import "app/elements";
+@import "app/utilities";
+@import "app/osfont";
+@import "app/chat";
+@import "app/app_email";
+@import "app/projects";
+@import "app/full_chat";
+@import "app/pricing_plans";
+@import "app/pipelines";
+@import "app/os_dropdowns";
+@import "app/todo";
+@import "app/fancy_selector";
+@import "app/responsive";
