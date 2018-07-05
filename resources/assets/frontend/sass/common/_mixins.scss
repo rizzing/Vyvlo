@@ -1,0 +1,9 @@
+@mixin bubble($radius, $bg, $opacity){
+  width: $radius;
+  height: $radius;
+  background: $bg;
+  opacity: $opacity;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 5;
+}
