@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#17EAD9"/>
+            <stop offset="77.463%" stop-color="#6078EA"/>
+        </linearGradient>
+        <filter id="b" width="142.9%" height="142.9%" x="-21.4%" y="-21.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+        </filter>
+    </defs>
+    <path fill="url(#a)" fill-rule="evenodd" d="M1249 511c13.477 0 25.175-7.617 31.023-18.781A34.848 34.848 0 0 0 1284 476c0-19.33-15.67-35-35-35s-35 15.67-35 35 15.67 35 35 35z" filter="url(#b)" transform="translate(-1201 -428)"/>
+</svg>
