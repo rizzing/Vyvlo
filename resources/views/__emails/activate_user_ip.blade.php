@@ -1,0 +1,1 @@
+Activate ip: <a href="{{$link}}">{{$link}}</a>
